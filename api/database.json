@@ -1,0 +1,190 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2018
+        },
+        {
+            "id": 2,
+            "model": "Surface Book",
+            "year": 2017
+        },
+        {
+            "id": 3,
+            "model": "Dell",
+            "year": 2019
+        },
+        {
+            "id": 4,
+            "model": "Lunovo",
+            "year": 2016
+        },
+        {
+            "id": 5,
+            "model": "Alianware",
+            "year": 2020
+        },
+        {
+            "id": 6,
+            "model": "Chromebook",
+            "year": 2020
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Nathan",
+            "lastName": "Martin",
+            "computerId": 5,
+            "departmentId": 1,
+            "locationsId": 1       
+        },
+        {
+            "id": 2,
+            "firstName": "Kaily",
+            "lastName": "Caldwell",
+            "computerId": 6,
+            "departmentId": 1,
+            "locationsId": 2       
+        },
+        {
+            "id": 3,
+            "firstName": "Andrew",
+            "lastName": "Causey",
+            "computerId": 4,
+            "departmentId": 2, 
+            "locationsId": 3              
+        },
+        {
+            "id": 4,
+            "firstName": "Philip",
+            "lastName": "Martin",
+            "computerId": 2,
+            "departmentId": 3,
+            "locationsId": 4       
+        },
+        {
+             "id": 5,
+            "firstName": "Brant",
+            "lastName": "Pippin",
+            "computerId": 1,
+            "departmentId": 3, 
+            "locationsId": 5       
+        },
+        {
+            "id": 6,
+            "firstName": "Christian",
+            "lastName": "Pippin ",
+            "computerId": 3,
+            "departmentId": 5, 
+            "locationsId": 6       
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "Name": "HTML"
+        },
+        {
+            "id": 2,
+            "Name": "CSS"
+        },
+        {
+            "id": 3,
+            "Name": "JAVASCRIPT"
+        },
+        {
+            "id": 4,
+            "Name": "JSON"
+        },
+        {
+            "id": 5,
+            "Name": "REACT"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "CompanyName": "amazon"
+        },
+        {
+            "id": 2,
+            "CompanyName": "apple"
+        },
+        {
+            "id": 3,
+            "CompanyName": "facebook"
+        },
+        {
+            "id": 4,
+            "CompanyName": "google"
+        },
+        {
+            "id": 5,
+            "CompanyName": "tesla"
+        },
+        {
+            "id": 6,
+            "CompanyName": "Adobe"
+        }
+    ],
+    "employeesCustomers": [
+        {
+            "id": 1,
+            "employeesId": 1,
+            "customersId": 1
+        },
+        {
+            "id": 1,
+            "employeesId": 2,
+            "customersId": 2
+        },
+        {
+            "id": 1,
+            "employeesId": 3,
+            "customersId": 3
+        },
+        {
+            "id": 1,
+            "employeesId": 4,
+            "customersId": 4
+        },
+        {
+            "id": 1,
+            "employeesId": 5,
+            "customersId": 5
+        },
+        {
+            "id": 1,
+            "employeesId": 6,
+            "customersId": 6
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "Nashville"
+        },
+        {
+            "id": 2,
+            "address": "Madison"
+        },
+        {
+            "id": 3,
+            "address": "Galliton"
+        },
+        {
+            "id": 4,
+            "address": "Rivergate"
+        },
+        {
+            "id": 5,
+            "address": "Hendersonville"
+        },
+        {
+            "id": 6,
+            "address": "Springfield"
+        }
+    ]
+}
